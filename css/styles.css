@@ -85,7 +85,7 @@ main {
 .hero ,.page-footer {
     background-color: #2e2f42;
 }
-.benefits-subtitle, .portfolio-subtitle {
+.benefits-subtitle {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -103,12 +103,15 @@ main {
     background: #f4f4fd;
 }
 .team-title {
-    line-height: 1.12;
+    line-height: 1.11;
+}
+.team-list {
+    background-color: #FFFFFF;
 }
 .team .team-name {
     font-weight: 500;
         font-size: 20px;
-        line-height: 1.5;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -119,20 +122,25 @@ main {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.team .team-list {
-    background-color: #FFFFFF;
-}
-.portfolio {
-        background-color: #FFFFFF;
-        }
-                .portfolio-title {
-                    font-weight: 700;
-                    font-size: 36px;
-                    line-height: 1.11111;
-                    letter-spacing: 0.02em;
-                    text-align: center;
-                    color: #2e2f42;
+
+.portfolio-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
                 }
+.portfolio {
+background-color: #FFFFFF;
+}
+.portfolio-subtitle {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
 .page-footer .footer-text {
     font-weight: 400;
         font-size: 16px;
