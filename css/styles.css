@@ -99,13 +99,13 @@ main {
         color: #434455;
 }
 .team {
+    background-color: #F4F4FD;
+}
+.team-list li {
     background-color: #FFFFFF;
 }
 .team-title {
     line-height: 1.11;
-}
-.team-list {
-    background-color: #FFFFFF;
 }
 .team .team-name {
     font-weight: 500;
