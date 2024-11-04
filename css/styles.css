@@ -122,8 +122,7 @@ main {
         color: #434455;
 }
 
-.portfolio .portfolio-title {
-        font-weight: 700;
+.portfolio-title {
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
@@ -133,6 +132,9 @@ main {
                 }
 .portfolio {
 background-color: #FFFFFF;
+}
+.portfolio-list {
+    background-color: #FFFFFF;
 }
 .portfolio-subtitle {
     font-weight: 500;
