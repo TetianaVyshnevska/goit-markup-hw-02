@@ -75,7 +75,6 @@ main {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background-color: #4d5ae5;
 }
 .hero .hero-button:hover,
@@ -100,7 +99,7 @@ main {
         color: #434455;
 }
 .team {
-    background: #f4f4fd;
+    background-color: #FFFFFF;
 }
 .team-title {
     line-height: 1.11;
@@ -130,6 +129,7 @@ main {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
                 }
 .portfolio {
 background-color: #FFFFFF;
