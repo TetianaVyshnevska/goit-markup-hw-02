@@ -101,7 +101,10 @@ main {
         color: #434455;
 }
 .team {
-    background-color: #FFFFFF;  
+    background: #f4f4fd;
+}
+.team-title {
+    line-height: 1.11;
 }
 .team .team-name {
     font-weight: 500;
@@ -116,6 +119,9 @@ main {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+.team-list {
+    background-color: #FFFFFF;
 }
 .portfolio {
         background-color: #FFFFFF;
