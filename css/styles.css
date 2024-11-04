@@ -50,8 +50,16 @@ color: #404bbf;
 main {
     font-family: "Roboto", sans-serif;
 }
-.hero {
-    background: #2e2f42;
+.header-title,
+.team-title,
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 .hero .hero-text {
     font-weight: 700;
@@ -61,7 +69,7 @@ main {
         text-align: center;
         color: #fff;
 }
-.hero .hero-button {
+.hero-button {
     cursor: pointer;
     font-weight: 500;
         font-size: 16px;
@@ -75,17 +83,17 @@ main {
 .hero .hero-button:focus {
     background-color: #404bbf;
 }
-.page-footer {
-    background-color:#2e2f42;
+.hero ,.page-footer {
+    background-color: #2e2f42;
 }
-.benefits .benefits-subtitle {
+.benefits-subtitle, .portfolio-subtitle {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.benefits.benefits-text {
+.benefits-text, .portfolio-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -93,15 +101,7 @@ main {
         color: #434455;
 }
 .team {
-    background-color: #FFFFFF;
-    
-}
-.team-title {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    background-color: #FFFFFF;  
 }
 .team .team-name {
     font-weight: 500;
@@ -120,30 +120,6 @@ main {
 .portfolio {
         background-color: #FFFFFF;
         }
-
-.portfolio .portfolio-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
-}
-.portfolio .portfolio-subtitle {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-.portfolio .portfolio-text {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
 .page-footer .footer-text {
     font-weight: 400;
         font-size: 16px;
