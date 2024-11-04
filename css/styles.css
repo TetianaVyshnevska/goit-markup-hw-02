@@ -51,8 +51,7 @@ main {
     font-family: "Roboto", sans-serif;
 }
 .header-title,
-.team-title,
-.portfolio-title {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -104,7 +103,7 @@ main {
     background: #f4f4fd;
 }
 .team-title {
-    line-height: 1.11;
+    line-height: 1.12;
 }
 .team .team-name {
     font-weight: 500;
@@ -120,12 +119,20 @@ main {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.team-list {
+.team .team-list {
     background-color: #FFFFFF;
 }
 .portfolio {
         background-color: #FFFFFF;
         }
+                .portfolio-title {
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.11111;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #2e2f42;
+                }
 .page-footer .footer-text {
     font-weight: 400;
         font-size: 16px;
